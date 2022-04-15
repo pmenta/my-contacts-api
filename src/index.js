@@ -21,6 +21,4 @@ app.use(routes);
 
 app.use(errorHandler);
 
-app.listen(3001, () => console.log('🔥 Server started at http://localhost:3001'));
-
-// Middleware 1 -> Middleware 2 -> Middleware 3 -> Route
+app.listen(3000, () => console.log('🔥 Server started at http://localhost:3000'));
